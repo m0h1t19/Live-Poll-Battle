@@ -1,0 +1,52 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 12px;
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #007bb5;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.selected {
+  background: #006494 !important;
+}
